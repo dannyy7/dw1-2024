@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+.c1 { 
+    color:#d1ffc2;
+    text-align: center;
+    font:sans-serif;
+    font-style: italic;
+    font-family:Playfair Display, serif;
+    font-optical-sizing:auto;
+    font-size: 3em;
+    background-color: #70845d;
+}
+.colunas {
+    column-count: 3;
+    column-gap: 10px;
+}
+.c2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 150;
+    text-align: center;
+    font-optical-sizing:auto;
+    font-style: normal;
+    color: #e6fcd0;
+    font-size: 1em
+}
