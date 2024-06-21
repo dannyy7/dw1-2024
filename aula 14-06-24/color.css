@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
 .c1 { 
     color:#d1ffc2;
     text-align: center;
-    font:sans-serif;
-    font-style: italic;
-    font-family:"Playfair Display", "serif";
-    font-optical-sizing:auto;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 5em;
     background-color: #70845d;
 }
@@ -48,7 +48,7 @@ ul.menu li {
     font-style: italic;
     font-family:"Playfair Display", "serif";
     font-optical-sizing:auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 ul.menu a:hover {
@@ -56,16 +56,28 @@ ul.menu a:hover {
     background-color: aqua;
     color: aliceblue;
 }
-div.secao1 {
+div#secao1 {
     width: 100%;
     background-color: #70845d;
     height: fit-content;
 
 }
 
-div.secao2 {
+div#secao2 {
     width: 100%;
     background-color: #70845d;
     height: fit-content;
 
+}
+
+div#secao3 {
+    width: 100%;
+    background-color: #70845d;
+    height: fit-content;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #abc097;
 }
