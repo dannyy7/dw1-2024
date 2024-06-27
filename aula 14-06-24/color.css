@@ -83,3 +83,33 @@ html {
     background-color: #abc097;
 }
 
+.rodape {
+    font-family: "Abril Fatface", serif;
+    font-weight: 150;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align:justify;
+    background-color: #70845d;
+    font-optical-sizing:auto;
+    font-style: normal;
+    color: #e6fcd0;
+    font-size: 0.7em
+}
+
+.principal{
+    background-image: url(https://st.depositphotos.com/52593200/59415/i/450/depositphotos_594155310-stock-photo-aesthetic-cute-green-checkers-checkerboard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 200px ;
+}
+
+.secundaria{
+    background-image: url(https://st.depositphotos.com/52593200/59415/i/450/depositphotos_594155310-stock-photo-aesthetic-cute-green-checkers-checkerboard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 200px ;
+}
