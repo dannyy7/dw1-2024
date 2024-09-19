@@ -1,0 +1,39 @@
+.header {
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    column-count: 3;
+    text-align:right;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.body { 
+    background-image: url(https://file.notion.so/f/f/48a2f079-68a5-4bb5-99eb-51881ae2de09/f0a165ff-3bc0-444f-8084-6b0e76a31f64/imagem-fundo.avif?id=a8a7aeee-541e-4797-9ddf-1a03f6346383&table=block&spaceId=48a2f079-68a5-4bb5-99eb-51881ae2de09&expirationTimestamp=1719684000000&signature=ZiSLTadPqLAoG4qrZChVE7YVvoGy1o5KaWTDq48fkUg&downloadName=imagem-fundo.avif);
+}
+
+.projeto_item{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    font-style: normal;
+    text-align:center;
+}
+
+
+.item1{
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.coluna {
+    column-count: 2;
+}
