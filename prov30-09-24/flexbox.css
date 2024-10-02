@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(41 42 43)
+}
+.container{/*pai*/
+    display: flex;
+    height: 600px;
+    background-color:rgb(171 71 188);
+    gap:10px;/*espaço entre containers (linha, coluna)*/
+    flex-direction: column;/*direção da flexbox*/
+    flex-wrap: wrap;/*adaptar elementos a um container*/
+    flex-flow: column wrap;/*atalho para flex-wrap e flex-direction (muda os dois)*/
+    justify-content: center;/*alinha horizontalmente*/
+    align-items: center;/*alinha os elementos verticalmente*/
+}
+.item{/*filhos*/
+    width: 200px;
+    height: 200px;
+    background-color:rgb(27 118 255);
+}
+#item-3{
+    flex-grow: 1;/*distribui espaços (capacidade de aumentar)*/
+    flex-shrink: 2;/*distribui espaços (capacidade de diminuit)*/
+    flex-basis: 20px;/*flex-grow porem vc escolhe o tamanho especifico*/
+    flex:10px;/*atalho nessa ordem: flex-grow; flex-shrink; flex-basis*/ 
+    align-self: flex-end;/*alinha esse unico elemento*/
+    order: 1;/*alinha a ordem dos elementos*/
+}

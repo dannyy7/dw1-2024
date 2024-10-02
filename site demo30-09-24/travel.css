@@ -1,0 +1,9 @@
+
+header{
+    position: sticky;
+    color: white;
+}
+#fundo{
+    background-image:url(imagens/fundo.jpg);
+    display: flex;
+}
