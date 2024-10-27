@@ -1,0 +1,12 @@
+.container{
+    background-color: blue;
+    width: 600px;
+    display:flex;
+    justify-content: space-around;
+}
+.filho{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+
+}

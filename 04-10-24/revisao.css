@@ -1,0 +1,17 @@
+.container{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
