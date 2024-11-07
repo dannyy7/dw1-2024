@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela-Refeições</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{border-collapse: collapse;}
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tr.dia{
+            background-color: rgba(128, 128, 128, 0.526);
+        }
+        td.refeicao{background-color: rgba(128, 128, 128, 0.526)}
+        #n{
+            border: none;
+            background-color: rgb(255, 255, 255);}
+
+    </style>
+</head>
+<body>
+    <!-- Hierarquia de Tabelas (simples):
+    Table = tabela
+        TableRow = linhas da tabela 
+            TableHeader = cabeçalho tabela
+            TableData = dados da tabela
+    -->
+    <table>
+        <tr class="dia">
+            <td id="n"></td>
+            <td>Domingo</td>
+            <td>Segunda-Feira</td>
+            <td>Terça-Feira</td>
+            <td>Quarta-Feira</td>
+            <td>Quinta-Feira</td>
+            <td>Sexta-Feira</td>
+            <td>Sabado</td>
+        </tr>
+        <tr>
+            <td class=refeicao>Café da manhã</td>
+            <td>Café com leite e pão com manteiga</td>
+            <td>Suco de laranja e tapioca</td>
+            <td>Iogurte com granola e frutas</td>
+            <td>Pão integral com requeijão e café</td>
+            <td>Café com leite e pão com manteiga</td>
+            <td>Vitamina de banana com aveia</td>
+            <td>Café com leite e pão com manteiga</td>
+        </tr>
+        <tr>
+            <td class=refeicao>Almoço</td>
+            <td>Arroz, feijão, frango, salada</td>
+            <td>Macarrão com carne moída e salada</td>
+            <td>Arroz, feijão, peixe, salada</td>
+            <td>Estrogonofe de frango e arroz</td>
+            <td>Arroz, feijão, frango, salada</td>
+            <td>Arroz, feijão, bife, salada</td>
+            <td>Macarrão com carne moída e salada</td>
+        </tr>
+        <tr>
+            <td class=refeicao>Café da tarde</td>
+            <td>Frutas e iogurte</td>
+            <td>Sanduíche de queijo	</td>
+            <td>Bolo de cenoura e suco</td>
+            <td>Torrada com geleia e chá</td>
+            <td>Bolo e café</td>
+            <td>Pão com manteiga</td>
+            <td>Bolo e leite</td>
+        </tr>
+        <tr>
+            <td class=refeicao>Janta</td>
+            <td>Sopa</td>
+            <td>Arroz, feijão, bife, salada</td>
+            <td>Arroz, feijão, frango, salada</td>
+            <td>Macarrão com carne moída</td>
+            <td>Arroz, feijão, bife, salada</td>
+            <td>Estrogonofe de frango e arroz</td>
+            <td>Pizza</td>
+        </tr>
+    </table>
+</body>
+</html>
